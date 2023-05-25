@@ -12,7 +12,7 @@ class checkboxesPage extends page {
     }
 
     //methods
-    async checkBox1(){
+    /*async checkBox1(){
         if (await this.option1.isSelected() != true){
             await this.option1.click()
         }
@@ -31,7 +31,7 @@ class checkboxesPage extends page {
         if (await this.option2.isSelected()){
             await this.option2.click()
         }
-    }
+    } */
 
     open () {
         return super.open('checkboxes')
